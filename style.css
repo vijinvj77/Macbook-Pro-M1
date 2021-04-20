@@ -14,10 +14,28 @@ header{
     animation: drop 1.5s ease;
 }
 section{
-    width: 93%;
+    width: 90%;
     margin:auto;
 }
+.buttons{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
 .btn-1{
+    margin: 0px 20px 0px 0px;
+    padding: 5px 20px;
+    background : none;
+    border: 1px solid black;
+}
+.btn-2{
+    margin: 0px 0px 0px 20px;
+    padding: 5px 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+/* .btn-1{
     margin: 80px 0px 0px 150px;
     padding: 5px 15px;
     background: none;
@@ -31,10 +49,7 @@ section{
     padding: 5px 15px;
     font-size: 20px;
     border: 1px solid black;
-}
-#specs{
-    margin-top: 5vh;
-}
+} */
 
 .card {
     margin-top: 5vh;
@@ -60,21 +75,26 @@ section{
 }
 
 @media screen and (max-width: 720px) {
- 
+/*  
 .buttons{
+        margin-top: -10vh;
         width: 50%;
         margin-left: auto;
         margin-right: auto;
-}
-.btn-1{
-    margin-left: 0px;
-}
-.btn-2{
-    margin-right: 0px;
+        text-align: center;
+} */
 }
 
- #specs{
-     margin-top: -10vh;
- }
-
-}
+/* @media screen and (max-width: 1024px){
+    .buttons{
+        text-align: center;
+        width: 50%;
+        margin: auto;
+    }
+    .btn-2{
+        margin: 0;
+    }
+    .btn-2{
+        margin: 0;
+    }
+} */
