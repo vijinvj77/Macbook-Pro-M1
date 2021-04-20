@@ -59,13 +59,20 @@ section{
 	}
 }
 
-@media screen and (max-width: 1024px) {
- .btn-1{
-     margin: 0px 0px 0px 25%;
- }
- .buttons{
-     margin-top: -10vh;
- }
+@media screen and (max-width: 720px) {
+ 
+.buttons{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+}
+.btn-1{
+    margin-left: 0px;
+}
+.btn-2{
+    margin-right: 0px;
+}
+
  #specs{
      margin-top: -10vh;
  }
